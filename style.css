@@ -92,6 +92,10 @@ button{
 .color-black{
     color: black;
 }
+#ct-site-title-at-top{
+    position: fixed;
+    width: 100%;
+}
 #site-title-at-top{
     display: flex; 
     justify-content: space-around;
@@ -119,5 +123,22 @@ button{
 @media (max-width: 736px) {
     .d-flex{
         flex-direction: column;
+    }
+    #search-input{
+        width: 50%
+    }
+    #search-input:focus{
+        width: 200px;
+        box-shadow: 0px 0px 8px black;
+        border: none;
+    }
+    #site-title-at-top{
+        display: flex; 
+        justify-content: space-between;
+    }
+    #ct-search-input{
+        padding: 5px;
+        text-align: right;
+        width: 200px;
     }
 }

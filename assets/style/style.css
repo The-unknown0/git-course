@@ -47,7 +47,7 @@ footer{
     margin-top: 25px;
     min-height: 300px;
     padding: 10px;
-    background: url('assets/img/Footer-bg.png');
+    background: url('../img/Footer-bg.png');
     background-size: contain;
     color: white;
     font-size: large;
@@ -80,7 +80,7 @@ table{
 }
 #suggest{
     background-color: #dadadd;
-    background: url('assets/img/pointing-pose-refreshing-man-suggesting-with-smile-illustration-a-vector-id1314464865.png');
+    background: url('../img/pointing-pose-refreshing-man-suggesting-with-smile-illustration-a-vector-id1314464865.png');
     background-size: cover;
 }
 #ct-text-proud{
